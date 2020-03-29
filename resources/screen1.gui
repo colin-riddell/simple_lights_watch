@@ -1,0 +1,21 @@
+<svg id="screen-1" display="none">
+
+  <use id="tile-list" href="#tile-list">
+    <var id="reorder-enabled" value="0"/>
+    <use href="#tile-list-item" class="tile-item">
+      <use id="item0" href="#checkbox-tile">
+        <set href="header/text" attributeName="text-buffer" to="Checkbox Item" />
+      </use>
+    </use>
+    <use href="#tile-list-item" class="tile-item">
+      <use id="item1" href="#checkbox-tile">
+        <set href="header/text" attributeName="text-buffer" to="Selected Item" />
+      </use>
+    </use>
+     <use href="#tile-list-item" class="tile-item">
+      <use id="item2" href="#checkbox-tile">
+        <set href="header/text" attributeName="text-buffer" to="Another Item" />
+      </use>
+    </use>
+  </use>
+</svg>
